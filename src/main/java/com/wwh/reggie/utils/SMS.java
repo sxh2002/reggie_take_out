@@ -27,7 +27,7 @@ public class SMS {
 
     public static void sendMsg(String phone,String code) throws Exception {
         com.aliyun.dysmsapi20170525.Client client =
-                SMS.createClient("LTAI5tKvrbnC4qYdMLBpMWo7", "iVBpU2ZKho7YN1odh6kN3iMtUxAOOM");
+                SMS.createClient("your accessKeyId", "your accessKeySecret");
         SendSmsRequest sendSmsRequest = new SendSmsRequest()
                 .setSignName("阿里云短信测试")
                 .setTemplateCode("SMS_154950909")
