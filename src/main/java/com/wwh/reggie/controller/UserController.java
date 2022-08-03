@@ -60,7 +60,6 @@ public class UserController {
 
         return R.error("短信发送失败");
 
-        //将验证码保存到session
     }
 
 
